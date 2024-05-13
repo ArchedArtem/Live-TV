@@ -29,7 +29,10 @@ body{
     display: flex;
     justify-content: space-between;
     justify-self: end;
-    width: 450px;
+}
+
+.section-navigation .container .icons .icon{
+    margin-left: 10px;
 }
 
 .section-navigation .container .icons a{
