@@ -26,6 +26,7 @@ body{
 }
 
 .section-navigation .container .icons{
+    margin-left: 400px;
     display: flex;
     justify-content: space-between;
     justify-self: end;
@@ -41,7 +42,13 @@ body{
     margin-left: 5px;
 }
 
-#navbarNavAltMarkup{
-    display: flex;
+.navbar-expand-lg .navbar-collapse .navbar-nav{
+    display: flex !important;
     justify-content: space-between;
+}
+
+@media (max-width: 990px){
+    .section-navigation .container .icons{
+        margin-left: 0px;
+    }
 }
