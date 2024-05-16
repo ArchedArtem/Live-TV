@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'Golos-Bold';
+    src: url(../fonts/Golos-Text_Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Golos-DemiBold';
+    src: url(../fonts/Golos-Text_DemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'Golos-Regular';
+    src: url(../fonts/Golos-Text_Regular.ttf);
+}

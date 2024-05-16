@@ -1,10 +1,17 @@
+@import url(./fonts.css);
+
 *{
+    font-family: 'Golos-Regular', sans-serif;
     padding: 0;
     border: none;
     text-decoration: none;
     margin: 0;
     box-sizing: border-box;
     outline: none;
+}
+
+p{
+    color: white;
 }
 
 a{
@@ -26,7 +33,6 @@ body{
 }
 
 .section-navigation .container .icons{
-    margin-left: 400px;
     display: flex;
     justify-content: space-between;
     justify-self: end;
@@ -42,13 +48,88 @@ body{
     margin-left: 5px;
 }
 
-.navbar-expand-lg .navbar-collapse .navbar-nav{
-    display: flex !important;
+#navbarNavAltMarkup{
+    display: flex;
     justify-content: space-between;
 }
 
-@media (max-width: 990px){
-    .section-navigation .container .icons{
-        margin-left: 0px;
+.neznakomec{
+    margin-top: 100px;
+}
+
+.neznakomec .container{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.neznakomec .container .textt{
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 30%;
+}
+
+.neznakomec .container .textt h2{
+    font-family: 'Golos-Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.neznakomec .container .textt .text-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.neznakomec .container .textt .text-2 img{
+    align-self: flex-start;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 100% 0;
     }
+    100% {
+      background-position: 0 0;
+    }
+}
+
+.neznakomec .container .buttons button p{
+    margin-bottom: 0px;
+}
+
+.neznakomec .container .buttons button{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Golos-DemiBold', sans-serif;
+    background-color: rgb(16, 25, 37);
+}
+  
+.neznakomec .container .buttons button:nth-child(1){
+    width: 50%;
+    color: #000;
+    background: linear-gradient(to left, rgb(66, 66, 247), rgb(32, 132, 199));
+    background-size: 200% 100%;
+    animation: gradient-animation 2s linear infinite;
+}
+
+.neznakomec .container .buttons button:nth-child(2){
+    width: 30%;
+}
+
+.neznakomec .container .buttons button:nth-child(2){
+    background-color: rgb(16, 25, 37);
+}
+
+.neznakomec .container .buttons{
+    margin-left: 50px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
 }
