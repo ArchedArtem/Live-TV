@@ -14,7 +14,7 @@
     outline: none;
 }
 
-p{
+p, h1, h2, h3, h4{
     color: white;
 }
 
@@ -310,4 +310,54 @@ body{
 
 .bessonic .container .bottom .bottom-left .perecluch .line{
     margin-top: 5%;
+}
+
+.info{
+    background-color: rgb(31, 31, 31);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.info .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .container .text{
+    width: 55%;
+}
+
+.info .container .text h3{
+    font-family: 'Golos-DemiBold', sans-serif;
+    font-size: 2.6vw;
+}
+
+.info .container .text p{
+    font-size: 17px;
+}
+
+.info .container .text .grafic{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info .container .text .grafic .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .container .text .grafic .row .text-1234{
+    width: 50%;
+}
+
+.info .container .text .grafic .row .text-1234 span{
+    background: linear-gradient(45deg, #1b4d9e 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3vw;
+    font-family: 'Golos-DemiBold', sans-serif;
 }
