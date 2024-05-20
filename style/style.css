@@ -89,6 +89,15 @@ body{
     align-self: flex-start;
 }
 
+.neznakomec .container .textt .text-2 p{
+    color: rgb(144, 145, 144);
+}
+
+.neznakomec .container .textt .text-2 .vosem{
+    color: white;
+    font-family: 'Golos-DemiBold', sans-serif;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 100% 0;
@@ -132,4 +141,28 @@ body{
     width: 35%;
     display: flex;
     justify-content: space-between;
+}
+
+.recomend{
+    margin-top: 100px;
+}
+
+.recomend .container h2{
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Golos-DemiBold', sans-serif;
+}
+
+.recomend .container .row .card{
+    background-color: rgb(20, 20, 20);
+    border: none;
+}
+
+.recomend .container .row .card .card-title{
+    font-family: 'Golos-DemiBold', sans-serif;
+    color: white;
+}
+
+.recomend .container .row .card .card-text{
+    color: rgb(144, 145, 144);
 }
