@@ -1,5 +1,9 @@
 @import url(./fonts.css);
 
+.no{
+    text-align: center;
+}
+
 *{
     font-family: 'Golos-Regular', sans-serif;
     padding: 0;
