@@ -238,3 +238,43 @@ body{
         transform: translateX(-200%);
     }
 }
+
+.bessonic{
+    margin-top: 100px !important;
+}
+
+.bessonic .container .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bessonic .container .top .imgshka{
+    height: 397px;
+}
+
+.bessonic .container .top .top-left .text-bessonic{
+    margin-top: 0px !important;
+    margin-left: 0px;
+    width: 70%;
+}
+
+.bessonic .container .top .top-left .buttons-bessonic{
+    width: 70%;
+    margin-left: 0px;
+}
+
+.bessonic .container .top .top-left .otkritie{
+    background: linear-gradient(to left, rgb(242, 158, 13), rgb(240, 106, 5));
+    width: 40%;
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bessonic .container .top .top-left .otkritie p{
+    margin-bottom: 0px;
+    font-family: 'Golos-DemiBold', sans-serif;
+}
