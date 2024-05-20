@@ -183,6 +183,9 @@ body{
 #input2:checked ~ #label2,
 #input3:checked ~ #label3{
     text-decoration: underline;
+    color: white;
+    text-decoration-color: rgb(63, 112, 234);
+    text-underline-offset: 5px;
 }
 
 .bessonic .container .bottom .bottom-left input{
@@ -277,4 +280,30 @@ body{
 .bessonic .container .top .top-left .otkritie p{
     margin-bottom: 0px;
     font-family: 'Golos-DemiBold', sans-serif;
+    font-size: 0.9vw;
+}
+
+.bessonic .container .bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bessonic .container .bottom .bottom-right{
+    width: 670px;
+}
+
+.bessonic .container .bottom .bottom-left{
+    width: 40%;
+}
+
+#label1, #label2, #label3{
+    font-size: 1.1vw;
+    font-family: 'Golos-DemiBold', sans-serif;
+    color: rgb(144, 145, 144);
+    margin-right: 15px;
+}
+
+.bessonic .container .bottom .bottom-left .perecluch .line{
+    margin-top: 5%;
 }
