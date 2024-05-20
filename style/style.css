@@ -166,3 +166,11 @@ body{
 .recomend .container .row .card .card-text{
     color: rgb(144, 145, 144);
 }
+
+.cosmos .container{
+    background-image: url(../img/6.jpg);
+}
+
+.cosmos .container button{
+    margin-top: 30px;
+}
