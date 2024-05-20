@@ -54,7 +54,7 @@ body{
 }
 
 .neznakomec{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .neznakomec .container{
@@ -67,33 +67,33 @@ body{
     background-repeat: no-repeat;
 }
 
-.neznakomec .container .textt{
+.textt-neznakomec{
     margin-left: 50px;
     margin-top: 100px;
     width: 30%;
 }
 
-.neznakomec .container .textt h2{
+.textt-neznakomec h2{
     font-family: 'Golos-Bold', sans-serif;
     color: white;
     font-size: 50px;
 }
 
-.neznakomec .container .textt .text-2{
+.textt-neznakomec .text-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.neznakomec .container .textt .text-2 img{
+.textt-neznakomec .text-2 img{
     align-self: flex-start;
 }
 
-.neznakomec .container .textt .text-2 p{
+.textt-neznakomec .text-2 p{
     color: rgb(144, 145, 144);
 }
 
-.neznakomec .container .textt .text-2 .vosem{
+.textt-neznakomec .text-2 .vosem{
     color: white;
     font-family: 'Golos-DemiBold', sans-serif;
 }
@@ -107,11 +107,11 @@ body{
     }
 }
 
-.neznakomec .container .buttons button p{
+.buttons-neznakomec button p{
     margin-bottom: 0px;
 }
 
-.neznakomec .container .buttons button{
+.buttons-neznakomec button{
     height: 50px;
     display: flex;
     justify-content: space-around;
@@ -120,7 +120,7 @@ body{
     background-color: rgb(16, 25, 37);
 }
   
-.neznakomec .container .buttons button:nth-child(1){
+.buttons-neznakomec button:nth-child(1){
     width: 50%;
     color: #000;
     background: linear-gradient(to left, rgb(66, 66, 247), rgb(32, 132, 199));
@@ -128,15 +128,15 @@ body{
     animation: gradient-animation 2s linear infinite;
 }
 
-.neznakomec .container .buttons button:nth-child(2){
+.buttons-neznakomec button:nth-child(2){
     width: 30%;
 }
 
-.neznakomec .container .buttons button:nth-child(2){
+.buttons-neznakomec button:nth-child(2){
     background-color: rgb(16, 25, 37);
 }
 
-.neznakomec .container .buttons{
+.buttons-neznakomec{
     margin-left: 50px;
     width: 35%;
     display: flex;
@@ -173,4 +173,68 @@ body{
 
 .cosmos .container button{
     margin-top: 30px;
+}
+
+#input1:checked ~ .perecluch .text1, #input2:checked ~ .perecluch .text2, #input3:checked ~ .perecluch .text3{
+    display: block;
+}
+
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    text-decoration: underline;
+}
+
+.bessonic .container .bottom .bottom-left input{
+    display: none;
+}
+
+.bessonic .container .bottom .bottom-left .perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+
+.bessonic .container .bottom .bottom-left .line{
+    width: 300%;
+    display: flex;
+}
+
+.bessonic .container .bottom .bottom-left .text{
+    color: white;
+    width: calc(100%/3);
+    /* animation: carousel 2000ms ease-in-out alternate infinite; */
+    transition: 1s;
+}
+
+#label1, #label2, #label3{
+    color: white;
+}
+
+#input1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(0);
+}
+
+#input2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+
+#input3:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+
+@keyframes carousel {
+    0%, 20%{
+        transform: translateX(0);
+    }
+
+    30%, 70%{
+        transform: translateX(-100%);
+    }
+
+    80%, 100%{
+        transform: translateX(-200%);
+    }
 }
