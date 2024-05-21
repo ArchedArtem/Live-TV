@@ -284,7 +284,7 @@ body{
 .bessonic .container .top .top-left .otkritie p{
     margin-bottom: 0px;
     font-family: 'Golos-DemiBold', sans-serif;
-    font-size: 0.9vw;
+    font-size: 0.8rem;
 }
 
 .bessonic .container .bottom{
@@ -326,13 +326,17 @@ body{
     justify-content: space-between;
 }
 
+.info .container img{
+    height: 100%;
+}
+
 .info .container .text{
     width: 55%;
 }
 
 .info .container .text h3{
     font-family: 'Golos-DemiBold', sans-serif;
-    font-size: 2.6vw;
+    font-size: 2.4rem;
 }
 
 .info .container .text p{
@@ -358,6 +362,128 @@ body{
     background: linear-gradient(45deg, #3375df 33%, #0D61BC 66%, #8AA9D6) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3vw;
+    font-size: 3rem;
     font-family: 'Golos-DemiBold', sans-serif;
+}
+
+.subscribe{
+    margin-top: 100px;
+}
+
+.subscribe .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe .container h2{
+    font-family: 'Golos-DemiBold', sans-serif;
+    font-size: 3rem;
+}
+
+.subscribe .container p{
+    width: 40%;
+}
+
+.subscribe .container .pole p{
+    margin-bottom: 0px;
+}
+
+.subscribe .container .pole input{
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(82, 81, 81);
+    height: 40px;
+}
+
+.subscribe .container .checkboxes p{
+    margin-bottom: 0px;
+}
+
+.subscribe .container .checkboxes .checks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe .container .checkboxes .checks label{
+    color: white;
+    font-size: 14px;
+}
+
+.subscribe .container .form-check-label{
+    color: white;
+    font-size: 13.8px;
+}
+
+.subscribe .container .buttons-subscribe{
+    margin-left: 0px;
+    font-size: 10px !important;
+    width: 100%;
+}
+
+.subscribe .container .cards .col .card{
+    background: linear-gradient(to right, rgb(18, 30, 49), rgb(33, 43, 55));
+    
+}
+
+.subscribe .container .cards .col .card .card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subscribe .container .cards .col .card .grafic{
+    background: linear-gradient(45deg, #458cff 33%, #8AA9D6) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.9rem;
+    font-family: 'Golos-DemiBold', sans-serif;
+}
+
+.subscribe .container .cards{
+    width: 50%;
+}
+
+.subscribe .container .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe .container form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    margin-top: 50px;
+    height: 100px;
+}
+
+footer .container p{
+    font-size: 14px;
+}
+
+footer .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7%;
+}
+
+footer .container .icons .icon{
+    cursor: pointer;
+}
+
+footer .container p a{
+    text-decoration: underline;
 }
