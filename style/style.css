@@ -487,3 +487,75 @@ footer .container .icons .icon{
 footer .container p a{
     text-decoration: underline;
 }
+
+@media (max-width: 1400px) {
+    .container{
+        width: 98%;
+    }
+
+    .textt-neznakomec .text-2 p{
+        font-size: 13px;
+    }
+
+    .bessonic .container .top .top-left .otkritie p{
+        font-size: 11px;
+    }
+
+    .buttons-bessonic p{
+        font-size: 12px;
+    }
+
+    .bessonic .container .bottom .bottom-left {
+        width: 35%;
+    }
+
+    .bessonic .container .bottom .bottom-left .perecluch .line .text{
+        font-size: 13px;
+    }
+
+    .info .container .text {
+        width: 50%;
+    }
+
+    .info .container .text .grafic .row .text-1234 span{
+        font-size: 30px;
+    }
+
+    .subscribe .container .cards .col .card .card-body p{
+        font-size: 14px;
+    }
+
+    .subscribe .container .cards .col .card .grafic{
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 98%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 98%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  98%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+}
