@@ -598,7 +598,86 @@ footer .container p a{
     .container{
         width: 98%;
     }
-}
+
+    .neznakomec .container{
+        height: 420px;
+        
+    }
+
+    .bolsh{
+        font-size: 12px;
+    }
+
+    .buttons-neznakomec{
+        width: 50%;
+    }
+
+    .textt-neznakomec{
+        width: 40%;
+        margin-top: 0px;
+    }
+
+    .recomend .container .row .card .card-title{
+        font-size: 1.6vw;
+    }
+
+    .recomend .container .row .card .card-text{
+        font-size: 1.5vw;
+    }
+
+    #label1, #label2, #label3{
+        font-size: 1.5vw !important;
+    }
+
+    .bessonic .container .bottom .bottom-left .perecluch .line .text{
+        font-size: 12px;
+    }
+
+    .bessonic .container .top .top-left .buttons-bessonic{
+        width: 90%;
+    }
+
+    .bessonic .container .top .top-left .otkritie p{
+        font-size: 8px !important;
+    }
+
+    .textt-neznakomec h2{
+        font-size: 40px;
+    }
+
+    .info .container .text .grafic .row .text-1234 span{
+        font-size: 20px;
+    }
+
+    .info .container .text p{
+        font-size: 12px;
+    }
+
+    .form-control{
+        width: 80%;
+    }
+
+    .checkboxes{
+        width: 80%;
+    }
+
+    .checkboxes .checks{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subscribe .container p{
+        width: 50%;
+    }
+
+    footer .icons{
+        width: 15% !important;
+    }
+
+    .subscribe .container .cards .col .card .grafic{
+        font-size: 17px !important;
+    }
 
 @media (max-width: 768px) {
     .container{
